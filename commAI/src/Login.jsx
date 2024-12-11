@@ -12,12 +12,13 @@ const Login = () => {
         try{
             await signInWithEmailAndPassword(auth,email,password);
             alert("User logged in successfuly ! ");
+            window.location.href = "/profile";
+            localStorage.setItem("testlink","profile");
         } catch (error){
             console.log(error.message);
-            alert("There was some problem with signing you in");
+            alert("Incorrect Email id or Password. Please try again !");
         }
-        window.location.href = "/profile";
-        localStorage.setItem("testlink","profile");
+        
     }
 
     useEffect(()=>{

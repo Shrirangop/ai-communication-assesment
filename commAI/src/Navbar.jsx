@@ -48,7 +48,7 @@ const Navbar = () => {
 
       <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
         <Link to={`/${testlink}`} onClick={toggleMenu}>Start Test</Link>
-        <Link to="/login" onClick={toggleMenu}>Log in</Link>
+        <Link to="/login" onClick={toggleMenu} id="mobile-auth-button">Log in</Link>
       </div>
     </div>
   );

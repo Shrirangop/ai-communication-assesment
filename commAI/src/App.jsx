@@ -6,6 +6,7 @@ import ScrollTriggerComponent from './Test'
 import Login from './Login';
 import Register from './Register';
 import Profile from './Profile';
+import Evaluation from './Evaluation';
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/profile">
             <Profile/>
+          </Route>
+          <Route exact path="/test">
+            <Evaluation/>
           </Route>
         </Switch>
       </>

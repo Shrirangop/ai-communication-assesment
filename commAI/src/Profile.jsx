@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { auth, db } from './firebase.jsx';
 import { doc, getDoc } from 'firebase/firestore';
 import './Profile.css';
-
+import {Link} from 'react-router-dom';
 const Profile = () => {
   const [userDetails, setUserDetails] = useState(null);
 
@@ -37,9 +37,12 @@ const Profile = () => {
     fetchUserData();
     localStorage.setItem("testlink","profile");
     let logbutton = document.getElementById('auth-button');
-    if (logbutton) {
+    let mobile_logbutton = document.getElementById('mobile-auth-button');
+    if (logbutton || mobile_logbutton) {
       logbutton.innerText = 'Log out';
+      mobile_logbutton.innerText = 'Log out';
       logbutton.addEventListener('click', handleLogout);
+      mobile_logbutton.addEventListener('click',handleLogout);
     }
   }, []);
 
@@ -61,7 +64,9 @@ const Profile = () => {
               )}
             </ul>
           </div>
-          <button className="start-test-button">Start Test</button>
+          <Link to="/test">
+            <button className="start-test-button">Start Test</button>
+          </Link>
         </div>
       ) : (
         <p>Loading user details...</p>
