@@ -1,0 +1,92 @@
+/* src/components/Register.css */
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+  
+.reg-form {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+}
+  
+.reg-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+.reg-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+  
+.reg-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+  
+.reg-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.reg-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+  
+.reg-form button:active {
+    transform: translateY(0);
+}
+
+.reg-span{
+    margin-top: 10px;
+}
+
+.register-login{
+    font-size: 18px;
+}
+  
+/* Responsive Design */
+@media (max-width: 480px) {
+    .reg-form {
+        padding: 20px;
+    }
+
+    .reg-form input {
+        font-size: 14px;
+    }
+
+    .reg-form button {
+        font-size: 16px;
+    }
+}
+  

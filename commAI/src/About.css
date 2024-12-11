@@ -1,0 +1,98 @@
+/* General Styles */
+.about {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .description-1 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  /* Feature Section */
+  .feature-section {
+    margin: 90px 20px;
+  }
+  
+  .feature-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* 3D Card Styles */
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    transform: perspective(1000px) rotateX(2deg);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: perspective(1000px) rotateX(0deg);
+  }
+  
+  /* Ordered List Styles */
+  .key-features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .key-features li {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    overflow: hidden;      /* Ensure content stays within bounds */
+    word-wrap: break-word; /* Ensure long words break correctly */
+    line-height: 1.5;      /* Improve readability with better line spacing */
+  }
+  
+  .key-features li:hover {
+    transform: translateY(-5px);
+    background-color: #e0f1ff;
+  }
+  
+  /* Typewriter Animation for List Items */
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      padding: 20px;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .feature-heading {
+      font-size: 24px;
+    }
+  
+    .key-features li {
+      font-size: 14px;
+    }
+  }
+  

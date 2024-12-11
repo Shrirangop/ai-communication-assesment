@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+/* 
+.navbar{
+  border: 2px solid rgb(115, 132, 175);
+  margin: 4px;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #8ccefc,#c3d8fd);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav{
+  font-weight: bold;
+}
+
+.home-button{
+  background-color: rgb(249, 251, 251);
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 150px;
+}
+
+.right-nav button{
+  background-color: rgb(249, 251, 251);
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  width: 100px;
+}
+
+.sign-up-button{
+  margin-left: 15px;
+} */
+
+.about{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.heading{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+ol{
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li{
+  margin: 15px;
+}
+
+
+
+

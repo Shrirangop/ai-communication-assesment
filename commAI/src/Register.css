@@ -1,0 +1,97 @@
+/* General Reset */
+  
+  /* Form Container */
+  .reg-form {
+    position: absolute;
+    top: 20%; /* Maintain constant vertical distance */
+    left: 45%; /* Center horizontally */
+    transform: translateX(-50%); /* Align center based on its own width */
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styles */
+  .reg-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input Styles */
+  .reg-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .reg-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Button Styles */
+  .reg-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .reg-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .reg-form button:active {
+    transform: translateY(0);
+  }
+  
+  /* Responsive Design */
+  
+  /* For Tablets and Smaller Laptops */
+  @media (max-width: 768px) {
+    .reg-form {
+      top: 15%;       /* Adjust vertical position */
+      left: 45%;      /* Ensure horizontal centering */
+      transform: translateX(-50%);
+      padding: 20px;
+      max-width: 350px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 480px) {
+    .reg-form {
+      top: 10%;       /* Adjust vertical position */
+      left: 40%;      /* Ensure horizontal centering */
+      transform: translateX(-50%);
+      padding: 15px;
+      max-width: 60%;
+    }
+  
+    .reg-form input {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .reg-form button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
