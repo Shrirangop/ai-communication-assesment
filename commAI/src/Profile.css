@@ -53,7 +53,7 @@
     color: #555;
   }
   
-  .start-test-button {
+  .start-test-button,.view-reports {
     background-color: #4CAF50;
     color: #fff;
     padding: 12px 20px;

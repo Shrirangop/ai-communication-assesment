@@ -1,0 +1,72 @@
+/* General container styling */
+.reports-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .reports-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Reports list styling */
+  .reports-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* 3D Report Card styling */
+  .reports-card {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 8px 8px 15px #aaaaaa, -8px -8px 15px #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .reports-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 20px #aaaaaa, -10px -10px 20px #ffffff;
+  }
+  
+  /* Report details styling */
+  .report-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-details h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .report-details p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* View Report button styling */
+  .view-report-button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-report-button:hover {
+    background-color: #357ab7;
+  }
+  

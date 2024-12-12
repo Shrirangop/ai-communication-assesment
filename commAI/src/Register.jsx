@@ -35,8 +35,10 @@ const Register = () => {
             }
         }
         window.location.href = "/profile";
-        document.querySelector("./sign-up-button").innerText = "Log out";
+        localStorage.setItem("testlink","profile");
     }
+
+    
 
     return ( 
         <div className='register-container'>

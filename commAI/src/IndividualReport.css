@@ -1,0 +1,116 @@
+/* Container for the report page */
+.report-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Go Back button styling */
+  .go-back-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .go-back-button:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Big, spacious vertical Report Card styling */
+  .report-card {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 700px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  /* Report Title */
+  .report-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Report Text */
+  .report-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Score Items */
+  .score-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Progress Bar Container */
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  /* Progress Indicator */
+  .progress {
+    height: 100%;
+    background-color: #4a90e2;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+  }
+  
+  /* Words Title */
+  .words-title {
+    font-size: 1.5em;
+    margin: 30px 0 15px;
+    text-align: center;
+  }
+  
+  /* Words Container */
+  .words-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual Word Item */
+  .word-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Word Text */
+  .word-text {
+    font-weight: bold;
+  }
+  
+  /* Word Score */
+  .word-score {
+    color: #555;
+  }
+  
+  /* Progress Bar for Words */
+  .word-progress-bar {
+    height: 10px;
+  }
+  
